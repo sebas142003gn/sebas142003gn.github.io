@@ -1,0 +1,266 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px ;
+    margin: auto;
+    overflow: hidden;
+}   
+.titulo{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    background-color: #9cff62;
+    border-radius: 50%;
+}
+/*Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #ffffffb0;
+    
+    
+    background-image: url(../img/foto-comida-principal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    
+    text-align: right;
+    padding: auto;
+}
+nav > a{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255) ;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About as*/
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-about-as{
+    width: 48%;
+
+}
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+
+}
+.contenido-textos h3 span{
+    border-style: solid;
+    background: #9cff62;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    padding: 4px;
+    box-shadow: #9cff62;
+    padding: 7px;
+}
+.contenido-textos p{
+    border-style:solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 300;
+    text-align: center;
+    background-color: #fbff00;
+    border-radius: 10%;
+    
+}
+/*Galeria*/
+
+.galeria.port{
+    display: inline-block;
+    margin-left: 230px;
+
+}
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-self: 20px;
+
+}
+.imagenes2{
+    background-color: #ff7272;
+    border-radius: 50%;
+    text-decoration-line:underline;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.hover-galeria h3{
+    display: flex ;
+    margin-bottom: 10px;
+}
+.imgg{
+    width: 160px;    
+    height: 250px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style:groove;
+    border-color: #000000;
+    
+}
+.hover-galeria img{
+    width: 60%px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    
+    
+    
+}
+
+.hover-galeria p{
+    
+    color: #000000;
+    margin-bottom: 45px;
+    font-size: 30px;
+
+
+}
+
+.clientes-contenedor{
+    display: flex;
+    margin-left: 45%;
+}
+.Titulo{
+    display: flex;
+    justify-content: center;
+    background-color: #9cff62;
+    border-radius: 50%;
+}
+.titulo1{
+    display: flex;
+    justify-content: center;
+    background-color: #9cff62;
+    border-radius: 50%;
+    
+    
+    
+}
+.cards{
+
+    display: flex;
+    justify-content:baseline;
+    align-items: baseline;
+    margin-left: 130px;
+    margin-bottom: 10px;
+    
+    
+}
+.card{
+    
+    width: 140px;
+    height: 120px;
+    display: flex;
+    justify-content:baseline;
+    margin-left: 10%;
+    margin-right: 10px;
+    
+
+}
+
+.contenido-textos-card h4{
+    
+    height: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+
+}
+.op{
+    width: 100px;
+    margin-bottom: 100px;
+    background-color: #90ff75;
+    border-radius: 10%;
+    border-top: 10%;
+    
+}
+
+.titulo h2{
+    display: flex;
+    justify-content: center;
+    background-color: #ff7272;
+
+}
+footer{
+    
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-block-end: 10px;
+    display: inline-block;  
+    color: #000000;
+    
+  
+}
+
+.contenedor-footer{
+    
+    display: inline-block;
+    background-color: #ff7272;
+    border-radius: 5%;
+    border-style: solid;
+}
+.titulo-final{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
